@@ -39,7 +39,7 @@ const Coinflip = () => {
     if (flipping) return;
     setFlipping(true);
     if (coinRef.current) {
-      coinRef.current.style.transition = "transform 1s";
+      coinRef.current.style.transition = "transform 2s";
       coinRef.current.style.transform = "rotateY(3600deg)";
     }
 
